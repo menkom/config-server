@@ -17,3 +17,13 @@ When there are default property (application.properties) and profiled settings (
 * `label` - value from client setting `spring.cloud.label`. This value corresponds to git branch name. Very important to know that branch name can't contain slash("/").
 
 According to difference in git versions there is server config property `spring.cloud.config.server.git.default-label`. For example `main` or `master` values. 
+
+
+There is a compatibility matrix of Spring-boot and Spring-cloud. https://spring.io/projects/spring-cloud#overview
+
+For current moment
+
+| Boot version | Cloud version |
+|--------------|---------------|
+| 2.5.4        | 2020.0.5      |
+| 2.6.4        | 2021.0.1      |
